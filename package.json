@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint lib"
   },
-  "repository": "https://github.com/atom/java-classpath-registry",
+  "repository": "https://github.com/noseglid/java-classpath-registry",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -28,6 +28,7 @@
     "eslint": "^2.9.0",
     "eslint-config-atom-build": "^3.0.0"
   },
+  "package-deps": [ "busy" ],
   "consumedServices": {
     "busy": {
       "versions": {
