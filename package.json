@@ -1,0 +1,45 @@
+{
+  "name": "java-classpath-registry",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Java Classpath Registry",
+  "keywords": [
+    "java",
+    "classpath",
+    "registry",
+    "productivity"
+  ],
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": "https://github.com/atom/java-classpath-registry",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "bluebird": "^3.4.0",
+    "glob": "^7.0.3",
+    "jdjs": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-atom-build": "^3.0.0"
+  },
+  "consumedServices": {
+    "busy": {
+      "versions": {
+        "^1.0.0": "consumeBusy"
+      }
+    }
+  },
+  "providedServices": {
+    "java.classpath-registry": {
+      "versions": {
+        "1.0.0": "provide"
+      }
+    }
+  }
+}
