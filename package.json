@@ -1,7 +1,7 @@
 {
   "name": "java-classpath-registry",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Java Classpath Registry",
   "keywords": [
     "java",
@@ -28,7 +28,9 @@
     "eslint": "^2.9.0",
     "eslint-config-atom-build": "^3.0.0"
   },
-  "package-deps": [ "busy" ],
+  "package-deps": [
+    "busy"
+  ],
   "consumedServices": {
     "busy": {
       "versions": {
