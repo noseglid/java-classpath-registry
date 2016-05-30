@@ -44,5 +44,14 @@
         "1.0.0": "provide"
       }
     }
+  },
+  "configSchema": {
+    "cacheTtl": {
+      "name": "Cache Time-to-Live",
+      "type": "integer",
+      "default": 30,
+      "minimum": 0,
+      "description": "The time (in days) too keep cache of .class and .jar files."
+    }
   }
 }
