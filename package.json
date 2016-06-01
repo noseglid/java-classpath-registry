@@ -1,7 +1,7 @@
 {
   "name": "java-classpath-registry",
   "main": "./lib/main",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Java Classpath Registry",
   "keywords": [
     "java",
