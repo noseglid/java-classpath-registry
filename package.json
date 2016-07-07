@@ -52,6 +52,12 @@
       "default": 30,
       "minimum": 0,
       "description": "The time (in days) too keep cache of .class and .jar files."
+    },
+    "classpathFile": {
+      "name": "Classpath File",
+      "type": "string",
+      "default": ".classpath",
+      "description": "The name of the classpath file to use."
     }
   }
 }
